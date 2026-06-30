@@ -1,5 +1,5 @@
-fetch("navi.html")
-    .then(whole => {
-    document.getElementById("navi").innerHTML = whole.text();
-  })
-  
+fetch('navi.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('navi').innerHTML = data;
+    });
