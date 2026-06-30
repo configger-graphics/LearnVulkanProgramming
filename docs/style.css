@@ -1,0 +1,11 @@
+html {
+  background: #3A3B3C;
+}
+h1 {
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+  font-size: 60px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
